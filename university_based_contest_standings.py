@@ -1,22 +1,3 @@
-# ReadMe
-# Date: March 1, 2025
-#
-# Python Libraries Installation:
-# Install the required Python libraries using pip:
-#    pip install selenium webdriver-manager openpyxl
-#
-# Additional Tools:
-# - Google Chrome web driver
-#
-# URL:
-# - The script scrapes data from the contest standings page:
-#   please put your desired contest standings link (bapsoj / toph)  in the url variable below
-#
-# Instructions:
-# 1. Run the script to generate the Excel file with the contest standings.
-# 2. The output file will be saved in xlsx format.
-
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -165,7 +146,7 @@ for col in ws.columns:
 ws.freeze_panes = "A2"
 
 # Save the Excel file
-output_file = "university_based_standings_toph.xlsx"
+output_file = "university_based_standings.xlsx"
 wb.save(output_file)
 
 print(f"University-based standings saved to '{output_file}'")
