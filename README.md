@@ -14,7 +14,7 @@ This Python script fetches team rankings from a given **BAPSOJ** or **Toph** con
 - Additionally, Google Chrome must be installed on your system.
 
 
-## Usage:
+## Usage
 - Update the 'url' variable in the script with the desired contest standings page URL.
 - Run the script: 
 ```sh
@@ -23,7 +23,7 @@ This Python script fetches team rankings from a given **BAPSOJ** or **Toph** con
 - The script will generate an Excel file named "university_based_standings.xlsx" in the same directory.
 
 
-## Note:
+## Note
 - This script was generated with AI assistance.
 - If the structure of the contest webpage changes, minor modifications may be required to ensure proper functionality.
 
